@@ -1,13 +1,8 @@
-# **Copy Certificates**
+# **Move Certificates**
 ## Description
-Copy certificates from the user certificate store to the system store.
-Chances are you want the Move Certificates plugin, however there are some situations where you want to copy instead - in which case you are in the right place!
-(for example, the firefox mobile browser (fennec / fenix) uses the system cert store for validating its sync server SSL cert, but the user cert store for web SSL, so you need your custom CA in both places)
+Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
 ## Changelog
-v2.0
-* Copy the cert instead of moving
-
 v1.9
 * Dynamically determine correct SELinux context for cert from device itself.
 * AdGuard users may need to reinstall their HTTPS filtering certificate.

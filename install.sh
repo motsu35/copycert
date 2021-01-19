@@ -123,8 +123,10 @@ REPLACE="
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "        Move Certificates      "
-  ui_print "     by yochananmarqos @XDA    "
+  ui_print "        Copy Certificates      "
+  ui_print "            by motsu           "
+  ui_print "     forked from Move Certs    "
+  ui_print "      (yochananmarqos @XDA)    "
   ui_print "*******************************"
 }
 

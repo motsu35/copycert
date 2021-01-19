@@ -1,6 +1,6 @@
 id=copycert
 name=Copy Certificates
-version=v2.0
-versionCode=10
+version=v1.9
+versionCode=11
 author=motsu
-description=Copy certificates from the user certificate store to the system store. Forked from yochananmarqos' Move Certs plugin.
+description=Copy certificates from the user certificate store to the system store.
